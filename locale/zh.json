@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama 原生接口",
+    "description": "通过 Ollama 自身的 /api/chat 协议接入本地模型：NDJSON 流式输出、思考块、原生工具调用、图像输入、模型发现，以及上下文长度等元数据解析。不经过任何 OpenAI 兼容层。"
+  }
+}

@@ -42,7 +42,7 @@ profile 里的插件是按**路径**导入的，插件自己的裸导入（`impo
 ## 安装状态
 
 - bundle 名：`dsh-ollama-native`，行 id：`llm-ollama-native`，provider 路由：`ollama`
-- 已写入 profile：`C:\Users\dc666\.dsh\profiles\desktop\package.json` 的 dependencies 与
+- 已写入 profile：`~/.dsh/profiles/desktop/package.json` 的 dependencies 与
   `dsh.profile.bundles`
 - 安装方式是 **link**（junction → 本目录），所以移动/删除本目录会让插件失效
 - `cordis.patch.yml` 里有一条 `- id: llm-ollama：disabled: true` 的防御性覆盖：若以后重新安装

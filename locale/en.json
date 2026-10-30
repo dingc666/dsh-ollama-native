@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama (native)",
+    "description": "Runs local Ollama models through Ollama's own /api/chat protocol: NDJSON streaming, thinking blocks, native tool calls, vision input, model discovery and context/metadata lookup. No OpenAI-compatible bridge."
+  }
+}

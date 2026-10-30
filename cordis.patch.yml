@@ -1,0 +1,17 @@
+# dsh-ollama-native — bundle patch.
+#
+# Mounts the native Ollama provider on the `ollama` route (local Ollama at
+# /api/chat). The `llm` service rejects two adapters on one route
+# (DUPLICATE_ADAPTER), so this bundle owns `ollama` and nothing else.
+#
+# The former `- id: llm-ollama / disabled: true` override was removed when the
+# third-party `dsh-llm-ollama` bundle (Ollama Cloud, route `ollama-cloud`, row
+# id `llm-ollama`) was installed: that override would have silently disabled
+# it. The two plugins target different routes and can coexist.
+- insert:
+    - id: llm-ollama-native
+      name: 'dsh-ollama-native'
+      config:
+        # Connection, tuning and model catalog are all editable live from the
+        # Plugins page; these are only the activation defaults.
+        baseURL: 'http://127.0.0.1:11434'

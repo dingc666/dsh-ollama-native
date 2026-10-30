@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ollama native provider">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <circle cx="31" cy="28.5" r="11.5" fill="none" stroke="#e7fffb" stroke-width="2.8"/>
+  <circle cx="31" cy="28.5" r="3.4" fill="#5eead4"/>
+  <path d="M44.5 15.5a13 13 0 0 1 5.4 6.6" fill="none" stroke="#5eead4" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M18.5 47.5h19" stroke="#e7fffb" stroke-width="2.8" stroke-linecap="round" opacity="0.9"/>
+  <path d="M42 44.5l4 3-4 3" fill="none" stroke="#e7fffb" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>
